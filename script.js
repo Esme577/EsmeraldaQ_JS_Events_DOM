@@ -18,3 +18,16 @@ document.addEventListener("click", function (e){
 
     clickMeElement.innerHTML = "<h1> you have clicked me!/h1>"
 })
+
+//background random colorchange
+
+function changeinBackgroundColor(){
+    let RandomRGB = ` rgb(${Math.floor(Math.random() * 256)},
+    ${Math.floor(Math.random() * 256)},
+    ${Math.floor(Math.random() * 256)})`; // there are 3 because there are red blue yellowand 256 becasue each have that amount of possibilities
+    document.body.style.backgroundColor = RandomRGB;
+
+    document.body.style.backgroundColor = RandomRGB;
+}
+let randomColorBtnElement = document.getElementById("randomColorBtn");
+randomColorBtnElement.addEventListener("click", changeinBackgroundColor);
