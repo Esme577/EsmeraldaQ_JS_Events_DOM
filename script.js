@@ -1,7 +1,7 @@
 //event triggered when page is fully loaded
 //document.addEventListener("DOMContentLoaded", function(){
-    let onLoadElemnt = document.getElementById("onload");
-    onLoadElemnt.innerHTML = "<h1> I loaded because the DOM was fully rendered</h1>"
+//    let onLoadElemnt = document.getElementById("onload");
+//   onLoadElemnt.innerHTML = "<h1> I loaded because the DOM was fully rendered</h1>"
 //}
 //)
 //keyevent
