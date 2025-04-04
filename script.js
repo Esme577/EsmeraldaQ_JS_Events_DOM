@@ -41,6 +41,8 @@
 
 //Dark Mode (Exercise)
 function darkmodetheme() {
+    const element = document.body;
     const btn = document.querySelector(".theme-btn")
-    btn.classList.toggle("darkmode"); // Toggles darktheme effect
+    element.classList.toggle("darkmode"); // Toggles darktheme effect 
+
    }

@@ -12,7 +12,10 @@
 .glow {
     box-shadow: 0 0 15px rgba(255, 107, 107, 0.8);
 }
-
+body{
+    background-color: white;
+    color: black;
+}
 .darkmode{
     background-color: black;
     color: white;
