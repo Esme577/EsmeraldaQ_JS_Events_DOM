@@ -40,13 +40,13 @@
 //  }
 
 //Dark Mode (Exercise)
-function darkmodetheme() {
-    const element = document.body;
-    const btn = document.querySelector(".theme-btn");
+//function darkmodetheme() {
+//    const element = document.body;
+//    const btn = document.querySelector(".theme-btn");
 
-    element.classList.toggle("darkmode"); // Toggles darktheme effect 
+//    element.classList.toggle("darkmode"); // Toggles darktheme effect 
 
-    if (btn.textContent === "dark mode") {
-        btn.textContent = "light mode";
-    } else {btn.textContent = "dark mode"}
-   }
+//    if (btn.textContent === "dark mode") {
+//        btn.textContent = "light mode";
+//    } else {btn.textContent = "dark mode"}
+//   }
