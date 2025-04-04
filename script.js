@@ -34,8 +34,13 @@
 
 
 //classList Toggle Demo 
-function changeBtnStyle() {
-    const btn = document.querySelector(".cool-btn")
-    btn.classList.toggle("glow"); // Toggles glow effect
+//function changeBtnStyle() {
+//    const btn = document.querySelector(".cool-btn")
+//    btn.classList.toggle("glow"); // Toggles glow effect
+//  }
+
+//Dark Mode (Exercise)
+function darkmodetheme() {
+    const btn = document.querySelector(".theme-btn")
+    btn.classList.toggle("darkmode"); // Toggles darktheme effect
    }
-   

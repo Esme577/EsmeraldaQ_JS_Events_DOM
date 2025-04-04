@@ -5,10 +5,15 @@
     padding: 15px 30px;
     font-size: 18px;
     border-radius: 8px;
-    cursor: pointer;
+    cursor: pointer; 
     transition: 0.3s;
 }
 
 .glow {
     box-shadow: 0 0 15px rgba(255, 107, 107, 0.8);
+}
+
+.darkmode{
+    background-color: black;
+    color: white;
 }
